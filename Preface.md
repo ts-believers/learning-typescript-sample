@@ -54,6 +54,7 @@
 
 代码块则将会是这样的风格：
 
+```ts
    class Greeter {
        greeting: string;
        constructor(message: string) {
@@ -62,9 +63,11 @@
        greet() {
            return "Hello, " + this.greeting;
    } }
+```
 
 如果我们希望向你强调代码块中的一部分，那么它们将会以粗体展示：
 
+```ts
    function MathHelper() { /* ... */ }
    **// class method**
    **MathHelper.areaOfCircle = function(radius) {**
@@ -72,13 +75,15 @@
    **}**
    // class property
    MathHelper.PI = 3.14159265359;
+```
 
 任何命令行的输入和输出将是以下这样的：
-** git clone https://github.com/user-name/repository-name.git **
+**git clone https://github.com/user-name/repository-name.git**
 
 **新概念**和**关键字**都会以粗体展示。你将从屏幕上看到的单词，例如，在菜单或对话框中的文字，将会以以下方式展示："In this tab, we can select **Create JavaScript CPU Profile** and then click on the **Start** button to start recording the CPU usage."
 
   [图片] 警告和关键提醒将会在这样的对话框中。
+  
   [图片] 小提示和小技巧将会在这样的对话框中。
 
 ## 读者反馈
