@@ -1,12 +1,12 @@
 # 序言
 
-在过去的几年里，基于`JavaScript`的web应用成几何数的增加。但是，目前的`JavaScript`标准（`ECMAScript 5`或又称`ES5`）是在许多年前设计出来的，它已经缺少了许多我们面对如今大规模`JavaScript`应用的复杂性时，所需要的特性了。正是由于这些特性的缺失，一些应用的可维护性问题也浮上了水面。
+在过去的几年里，基于`JavaScript`的web应用成几何数的增加。但是，目前的`JavaScript`标准（`ECMAScript 5`或又称`ES5`）是在许多年前设计出来的，它已经缺少了许多我们面对如今大规模`JavaScript`应用的复杂性时所需要的特性了。正是由于这些特性的缺失，一些应用的可维护性问题也浮上了水面。
 
-新一代的`JavaScript`标准(`ECMAScript 6`或又称`ES6`)的出现，旨在解决上述的可维护性问题。但是它所带来的这些新特性，还并没有被如今的浏览器所全部实现。所以，`ES6`特性的广泛应用，仍被认为是一个漫长的过程。
+新一代的`JavaScript`标准(`ECMAScript 6`或又称`ES6`)的出现，旨在解决上述的可维护性问题。但是如今我们使用的浏览器并没有完全实现它，而且实现的程度也各有不同。所以，`ES6`特性的广泛应用，仍被认为是一个漫长的过程。
 
 为了解决这类`JavaScript`的可维护性和可伸缩性问题，微软花了两年时间，开发了`TypeScript`。并在2012年的十月，对外宣布了它：
 
-> “我们为需要构建和维护大型`JavaScript`程序的团队设计了`TypeScript`，以满足他们的需求。`TypeScript`帮助他们在软件组件之间定义接口，并且掌控现存`JavaScript`库的行为。当开发者们以动态可加载的模块来组织他们的代码时，`TypeScript`可以用来帮助他们减少命名冲突。`TypeScript`可选的类型系统使开发者们可以使用一些高效的开发工具和实践：静态检查，基于标记的导航，声明补全和代码重构”   - `TypeScript`语言特性 1.0                      
+> “我们为需要构建和维护大型`JavaScript`程序的团队设计了`TypeScript`，以满足他们的需求。`TypeScript`帮助他们在软件组件之间定义接口，并且帮助理解现存`JavaScript`库的行为。当开发者们以动态可加载的模块来组织他们的代码时，`TypeScript`可以用来帮助他们减少命名冲突。`TypeScript`可选的类型系统使开发者们可以使用一些高效的开发工具和实践：静态检查，基于标记的导航，声明补全和代码重构”   - `TypeScript`语言特性 1.0                      
 
 即使是具有多年丰富经验的开发者，也很难给出大规模`JavaScript`应用明确的定义。当谈及这个话题时，我们应该避免使用代码行数来作为评判标准，而是应该以代码中的模块的数量，模块之间的依赖关系来评判应用的规模。我们将大规模应用定义为，需要众多开发者一同维护且具有一定复杂度的程序。
 
@@ -69,13 +69,18 @@
 
 ```ts
    function MathHelper() { /* ... */ }
-   **// class method**
-   **MathHelper.areaOfCircle = function(radius) {**
-     **return radius * radius * this.PI;**
-   **}**
+```
+<pre>
+   <b>// class method</b>
+   <b>MathHelper.areaOfCircle = function(radius) {</b>
+     <b>return radius * radius * this.PI;</b>
+   <b>}</b>
+</pre>
+```ts
    // class property
    MathHelper.PI = 3.14159265359;
 ```
+
 
 任何命令行的输入和输出将是以下这样的：
 **git clone https://github.com/user-name/repository-name.git**
@@ -83,7 +88,7 @@
 **新概念**和**关键字**都会以粗体展示。你将从屏幕上看到的单词，例如，在菜单或对话框中的文字，将会以以下方式展示："In this tab, we can select **Create JavaScript CPU Profile** and then click on the **Start** button to start recording the CPU usage."
 
   [图片] 警告和关键提醒将会在这样的对话框中。
-  
+
   [图片] 小提示和小技巧将会在这样的对话框中。
 
 ## 读者反馈
