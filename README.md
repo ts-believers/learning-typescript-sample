@@ -1,2 +1,2 @@
 # learning-typescript-sample
-Sample of Learning TypeScript
+Sample of *Learning TypeScript*
