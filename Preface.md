@@ -67,20 +67,15 @@
 
 如果我们希望向你强调代码块中的一部分，那么它们将会以粗体展示：
 
-```ts
-   function MathHelper() { /* ... */ }
-```
 <pre>
+   function MathHelper() { /* ... */ }
    <b>// class method</b>
    <b>MathHelper.areaOfCircle = function(radius) {</b>
      <b>return radius * radius * this.PI;</b>
    <b>}</b>
-</pre>
-```ts
    // class property
    MathHelper.PI = 3.14159265359;
-```
-
+</pre>
 
 任何命令行的输入和输出将是以下这样的：
 **git clone https://github.com/user-name/repository-name.git**
