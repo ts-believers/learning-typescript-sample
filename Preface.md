@@ -38,7 +38,7 @@
 
 本书中的例子都将使用`TypeScript 1.5`编写。你需要`TypeScript`编译器和一个文本编辑器。本书将会说明如何使用`Atom`，但是你也可以使用其他的编辑器，如`Visual Studio 2015`，`Visual Studio Code`或`Sublime Text`。
 
-你还需要一个能够上网的环境来下载一些必要的依赖引用、包和库，如`jQuery`、`Mocha`和`Gulp`。为了安装本书中的一些工具，依据不同的操作系统，你可能还需要获取各自的系统管理员权限。第二章，自动化你的工作流程，将会指导你建立起开发环境。
+你还需要一个能够上网的环境来下载一些必要的依赖引用、包和库，如`jQuery`、`Mocha`和`Gulp`。在一些操作系统下安装本书中的一些工具，你可能还需要一个拥有管理员权限的账号。第二章，自动化你的工作流程，将会指导你建立起开发环境。
 
 ## 适宜阅读本书的读者
 
@@ -50,7 +50,7 @@
 
 本书将会使用不同的书写风格来区分不同种类的信息。以下是这些风格的例子和它们的意义。
 
-小段文本代码，数据库表名，文件夹名，文件名，文件扩展名，路径名，URL，用户输入和推特用户定位（Twitter handles）将会用以下风格书写："We can include other contexts through the use of the `include` directive."
+小段文本代码，数据库表名，文件夹名，文件名，文件扩展名，路径名，URL，用户输入和推特用户定位（Twitter handles）将会用以下风格书写："我们可以通过`include`指令将其它上下文包含进来."
 
 代码块则将会是这样的风格：
 
@@ -80,7 +80,7 @@
 任何命令行的输入和输出将是以下这样的：
 **git clone https://github.com/user-name/repository-name.git**
 
-**新概念**和**关键字**都会以粗体展示。你将从屏幕上看到的单词，例如，在菜单或对话框中的文字，将会以以下方式展示："In this tab, we can select **Create JavaScript CPU Profile** and then click on the **Start** button to start recording the CPU usage."
+**新概念**和**关键字**都会以粗体展示。你将从屏幕上看到的单词，例如，在菜单或对话框中的文字，将会以以下方式展示："在这个标签，我们可以选择 **Create JavaScript CPU Profile** 然后点击 **Start** 按钮开始搜集CPU用量信息."
 
   [图片] 警告和关键提醒将会在这样的对话框中。
 
